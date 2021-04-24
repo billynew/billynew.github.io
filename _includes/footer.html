@@ -1,18 +1,43 @@
-<!-- begin footer -->
-<footer class="footer">
+
+<div class="py-5 border-top">
   <div class="container">
 
-    {% if site.data.settings.mailchimp %}
-    {% include subscribe.html %}
-    {% else %} {% endif %}
+    <p class="h5 mb-3">{{ site.title | escape }}</p>
 
-    {% if site.data.settings.instagram %}
-    {% include instagram.html %}
-    {% else %} {% endif %}
+    <div class="row">
 
-    {% include contact-link.html %}
+      <div class="col-sm">
+        <ul class="list-unstyled">
+          <li>
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+            <li>
+              <a href="mailto:{{ site.email }}">
+                {{ site.email }}
+              </a>
+            </li>
+          {%- endif -%}
+        </ul>
+      </div>
 
-    <div class="copyright">Copyright &copy; {{site.time | date: '%Y'}} <a href="/">{{ site.data.settings.title }}</a> — All right Reserved. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</div>
+
+      <div class="col-sm text-right">
+        <p>{{- site.description | escape -}}</p>
+
+        <p>
+          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
+        </p>
+        <p>
+          <a href="https://github.com/nicolas-van/bootstrap-4-github-pages"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nicolas-van/bootstrap-4-github-pages?style=social"></a>
+        <p>
+      </div>
+
+    </div>
+
+  </div>
 </div>
-</footer>
-<!-- end footer -->
