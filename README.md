@@ -1,6 +1,6 @@
-Zolan - Modern & Minimal Theme for Jekyll
+ - Modern & Minimal Theme for Jekyll
 ======
-Zolan is a minimal blog theme for Jekyll.
+We've fucked up the template, let's see what happens.
 
 * * *
 
