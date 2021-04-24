@@ -1,4 +1,4 @@
-Zola - Modern & Minimal Theme for Jekyll
+Zolan - Modern & Minimal Theme for Jekyll
 ======
 We've fucked up the template, let's see what happens.
 
