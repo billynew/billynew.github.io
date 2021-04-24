@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
  - Modern & Minimal Theme for Jekyll
 =======
 Zolan - Modern & Minimal Theme for Jekyll
 >>>>>>> parent of d2ed4a3... useless change
+=======
+Zolan - Modern & Minimal Theme for Jekyll
+>>>>>>> parent of ea6440b... Meaningless
 ======
 We've fucked up the template, let's see what happens.
 
