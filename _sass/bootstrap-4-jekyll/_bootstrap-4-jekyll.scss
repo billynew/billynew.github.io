@@ -14,3 +14,38 @@
 .lab-footer {
   border-top: 1px solid #3f3f3f;
 }
+
+header {
+  position: relative;
+  background-color: black;
+  height: 51vw;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  margin-right: -500px !important;
+  height: auto;
+  z-index: 0;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
+}
