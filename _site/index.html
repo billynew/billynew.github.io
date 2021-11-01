@@ -1,83 +1,220 @@
 <!DOCTYPE html>
 <html lang="en"><head>
- <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Bootstrap 4 Github Pages | A Bootstrap 4 start up project for Jekyll and Github Pages</title>
-<meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="Bootstrap 4 Github Pages" />
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Home | Small Artifacts Lab</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Home" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A Bootstrap 4 start up project for Jekyll and Github Pages" />
-<meta property="og:description" content="A Bootstrap 4 start up project for Jekyll and Github Pages" />
+<meta name="description" content="Let’s build some cool stuff." />
+<meta property="og:description" content="Let’s build some cool stuff." />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Bootstrap 4 Github Pages" />
+<meta property="og:site_name" content="Small Artifacts Lab" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Home" />
 <script type="application/ld+json">
-{"name":"Bootstrap 4 Github Pages","description":"A Bootstrap 4 start up project for Jekyll and Github Pages","@type":"WebSite","url":"http://localhost:4000/","headline":"Bootstrap 4 Github Pages","@context":"http://schema.org"}</script>
+{"description":"Let’s build some cool stuff.","name":"Small Artifacts Lab","url":"http://localhost:4000/","@type":"WebSite","headline":"Home","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Bootstrap 4 Github Pages" /><script src="/assets/javascript/bootstrap/jquery.min.js"></script>
-  <script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Small Artifacts Lab" /><script src="/assets/javascript/bootstrap/jquery.min.js"></script>
+   <script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+   <!-- Load the Paper.js library -->
+   <script type="text/javascript" src="/assets/javascript/paper.js"></script>
+   <!-- Define inlined PaperScript associate it with myCanvas -->
+   <script type="text/paperscript" canvas="myCanvas">
+    // Adapted from the following Processing example:
+// http://processing.org/learning/topics/follow3.html
+
+// The amount of points in the path:
+var points = 30;
+
+// The distance between the points:
+var length = 15;
+
+var path = new Path({
+    strokeColor: '#E3E3E3',
+    strokeWidth: 15,
+    strokeCap: 'round'
+});
+
+var start = view.center / [10, 1];
+for (var i = 0; i < points; i++)
+    path.add(start + new Point(i * length, 0));
+
+function onMouseMove(event) {
+    path.firstSegment.point = event.point;
+    for (var i = 0; i < points - 1; i++) {
+        var segment = path.segments[i];
+        var nextSegment = segment.next;
+        var vector = segment.point - nextSegment.point;
+        vector.length = length;
+        nextSegment.point = segment.point - vector;
+    }
+    path.smooth({ type: 'continuous' });
+}
+
+function onMouseDown(event) {
+    path.fullySelected = true;
+    path.strokeColor = '#e08285';
+}
+
+function onMouseUp(event) {
+    path.fullySelected = false;
+    path.strokeColor = '#e4141b';
+}
+</script>
+<script type="text/javascript">
+    const videos = ["assets/videos/MechanoBeat.mp4","assets/videos/FabHydro.mp4"];
+    var currentVideo = 0;
+
+    function nextVideo() {
+    // get the element
+    videoPlayer = document.getElementById("play-video")
+    // remove the event listener, if there is one
+    videoPlayer.removeEventListener('ended',nextVideo,false);
+
+    // update the source with the currentVideo from the videos array
+    videoPlayer.src = videos[currentVideo];
+    // play the video
+    videoPlayer.play()
+
+    // increment the currentVideo, looping at the end of the array
+    currentVideo = (currentVideo + 1) % videos.length
+
+    // add an event listener so when the video ends it will call the nextVideo function again
+    videoPlayer.addEventListener('ended', nextVideo,false);
+}
+
+function ooops() {
+    console.log("Error: " + document.getElementById("play-video").error.code)
+}
+</script>
 </head>
-<body><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body><div class="bg-smartlab smartlab-header">
   <div class="container">
-    <a class="navbar-brand" rel="author" href="/index.html">Bootstrap 4 Github Pages</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto"><li class="nav-item">
-          <a class="nav-link" href="/projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/people.html">People</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/joinus.html">Join Us</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-ligh bg-smartlab">
+      <div class="container">
+        <a class="navbar-brand" rel="author" href="/index.html"><img width="100%" height="auto" src="assets/images/smartlogofinal.png"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto"><li class="nav-item">
+            <a class="nav-link mx-2" href="/index.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/people.html">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/joinus.html">Join Us</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav><div class="py-1">
+  </nav>
+</div>
+</div><div>
       <div class="page-content">
-          <header>
-    <div class="overlay"></div>
-    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="/assets/videos/MechanoBeat.mp4" type="video/mp4">
-    </video>
-    <div class="container h-100">
-        <div class="d-flex h-100 align-items-center">
-            <div class="w-100 text-white">
-                <h1 class="front-hero">Technical HCI Lab</h1>
-                <p class="front-body mt-4">
-                    A lab at UMD</a>
-                </p>
-            </div>
+          <div class="container mb-4">
+    <div class="row">
+        <canvas id="myCanvas"></canvas>
+    </div>
+    <div class="row pt-4">
+        <div class="col-5">                    
+            <div class="video-player">
+                <video style="background-color: #000;" class="mr-5 my-5" id="play-video" autobuffer muted>
+                    Your browser does not support the video tag.
+                </video>    <!--end video container -->
+
+            </div>  
+        </div>
+        <div class="col-7 my-auto">
+            <p class="header-text set-font m-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
         </div>
     </div>
-</header>
+    <h1 class="set-font-bold">Publications</h1>
+    <div class="row mt-4"> 
+        <div class="card flex-md-row box-shadow w-100 rounded-0 border-0">
+            <div class="card-body d-flex flex-column align-items-start">
+                <p class="card-text mb-1 set-font small-text">In Proceedings of UIST 2021</p>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">FabHydro: Printing Interactive Hydraulic Devices with an Affordable SLA 3D Printer</a>
+              </h3>
+              <div class="my-1 text-muted authors small-text">Zeyu Yan, Huaishu Peng</div>
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                  <div class="btn-group mr-2">
+                      <a href="#" class="btn btn-smartlab btn-sm rounded-0">DOI</a>
+                  </div>
+                  <div class="btn-group mr-2">
+                      <a href="#" class="btn btn-smartlab btn-sm rounded-0">PDF</a>
+                  </div>
+              </div>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 35%; aspect-ratio: 16/9;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17cd8192ac9%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17cd8192ac9%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2255.765625%22%20y%3D%22130.86875%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+          </div>
+    </div>
+    <div class="row mt-3"> 
+        <div class="card flex-md-row box-shadow w-100 rounded-0 border-0">
+            <div class="card-body d-flex flex-column align-items-start">
+                <p class="card-text mb-1 set-font small-text">In Proceedings of UIST 2021</p>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">FabHydro: Printing Interactive Hydraulic Devices with an Affordable SLA 3D Printer</a>
+              </h3>
+              <div class="my-1 text-muted authors small-text">Zeyu Yan, Huaishu Peng</div>
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                  <div class="btn-group mr-2">
+                      <a href="#" class="btn btn-smartlab btn-sm rounded-0">DOI</a>
+                  </div>
+                  <div class="btn-group mr-2">
+                      <a href="#" class="btn btn-smartlab btn-sm rounded-0">PDF</a>
+                  </div>
+              </div>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" style="width: 35%; aspect-ratio: 16/9;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17cd8192ac9%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17cd8192ac9%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2255.765625%22%20y%3D%22130.86875%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
+          </div>
+    </div>
+</div>
+
+<script>
+// add error handler for the video element
+document.getElementById("play-video").addEventListener('error', ooops,false);
+
+nextVideo();
+
+</script>
+
       </div>
     </div>
 <div class="py-5 lab-footer">
   <div class="container">
 
-    <p class="h5 mb-3">Bootstrap 4 Github Pages</p>
-
+    <p class="set-font mb-1">Small Artifacts Lab</p>
+    <p class="mini-text set-font mb-3">
+    <a href="https://www.umd.edu">University of Maryland</a>
+    </p>
     <div class="row">
 
       <div class="col-sm">
-        <ul class="list-unstyled">
-          <li>Bootstrap 4 Github Pages</li><li>
+        <ul class="list-unstyled"><li>
               <a href="mailto:">
                 
               </a>
             </li></ul>
+        <p class="mini-text set-font">
+          0102 <br>
+          Brendan Iribe Center for Computer Science and Engineering <br>
+          8125 Paint Branch Drive <br>
+        </p>
       </div>
 
 
       <div class="col-sm text-right">
-        <p>A Bootstrap 4 start up project for Jekyll and Github Pages</p>
+        <p class="mini-text set-font">Let&#39;s build some cool stuff.</p>
 
-        <p>
+        <p class="minier-text">
           <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
         </p>
       </div>

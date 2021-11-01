@@ -1,32 +1,36 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="bg-smartlab smartlab-header">
   <div class="container">
-    <a class="navbar-brand" rel="author" href="/index.html">{{ site.title | escape }}</a>
+    <nav class="navbar navbar-expand-lg navbar-ligh bg-smartlab">
+      <div class="container">
+        <a class="navbar-brand" rel="author" href="/index.html"><img width="100%" height="auto" src="assets/images/smartlogofinal.png"></a>
 
-    {%- assign page_paths = site.header_pages -%}
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-        <li class="nav-item">
-          <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        </li>
-        {%- endif -%}
-        {% endfor -%}
-        <li class="nav-item">
-          <a class="nav-link" href="/projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/people.html">People</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/joinus.html">Join Us</a>
-        </li>
-      </ul>
+        {%- assign page_paths = site.header_pages -%}
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          </li>
+          {%- endif -%}
+          {% endfor -%}
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/index.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/people.html">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/joinus.html">Join Us</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
+</div>

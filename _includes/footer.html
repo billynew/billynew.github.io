@@ -2,19 +2,14 @@
 <div class="py-5 lab-footer">
   <div class="container">
 
-    <p class="h5 mb-3">{{ site.title | escape }}</p>
-
+    <p class="set-font mb-1">{{ site.title | escape }}</p>
+    <p class="mini-text set-font mb-3">
+    <a href="https://www.umd.edu">University of Maryland</a>
+    </p>
     <div class="row">
 
       <div class="col-sm">
         <ul class="list-unstyled">
-          <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
           {%- if site.email -%}
             <li>
               <a href="mailto:{{ site.email }}">
@@ -23,13 +18,18 @@
             </li>
           {%- endif -%}
         </ul>
+        <p class="mini-text set-font">
+          0102 <br>
+          Brendan Iribe Center for Computer Science and Engineering <br>
+          8125 Paint Branch Drive <br>
+        </p>
       </div>
 
 
       <div class="col-sm text-right">
-        <p>{{- site.description | escape -}}</p>
+        <p class="mini-text set-font">{{- site.description | escape -}}</p>
 
-        <p>
+        <p class="minier-text">
           <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
         </p>
       </div>

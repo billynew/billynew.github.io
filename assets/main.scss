@@ -7,3 +7,136 @@
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+
+@font-face {
+    font-family: MyFont;
+    font-weight: normal;
+    src: url("/assets/fonts/MyFont-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MyFont;
+    font-weight: bold;
+    src: url("/assets/fonts/MyFont-Bold.otf") format("opentype");
+}
+
+$lab-accent: #F5E2C8;
+$lab-accent-dark: #413A3A;
+
+h1 {
+	font-size: 1.9rem;
+}
+
+h3 {
+	font-family: MyFont;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+body {
+	background-color: #fff;
+}
+
+header {
+	background-color: #fff;
+	height: auto !important;
+	min-height: 0rem !important;
+}
+
+a {
+	color: #000;
+	&:hover {
+		color: $lab-accent-dark;
+		text-decoration: underline !important;
+	}
+}
+
+canvas{
+	width: 100%;
+    height: 27rem;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+video {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+.authors {
+	font-family: MyFont;
+    font-weight: normal;
+}
+
+.video-player {
+	width: 100%;
+	aspect-ratio: 16/9;
+}
+
+.small-text { 
+	font-size: 0.9rem;
+}
+
+.normal-text {
+	font-size: 1rem;
+}
+
+.mini-text {
+	font-size: 0.7rem;
+}
+
+.minier-text {
+	font-size: 0.5rem;
+}
+
+.smartlab-header {
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
+}
+
+.bg-smartlab {
+	background-color: $lab-accent;
+}
+
+.navbar-brand {
+	max-width: 15%;
+}
+
+.lab-footer {
+	background-color: $lab-accent-dark;
+	color: #fff;
+	font-family: 'MyFont';
+	bottom: 0;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-family: 'MyFont';
+}
+
+.lab-footer a {
+	color: #fff;
+	font-family: 'MyFont';
+}
+
+.set-font {
+	font-family: 'MyFont';
+}
+
+.set-font-bold {
+	font-family: 'MyFont';
+	font-weight: bold;
+}
+
+.btn-smartlab {
+	color: #000;
+	background-color: #fff;
+	border-color: #000;
+	&:hover {
+		background-color: #efefef;
+		color: #000;
+	}
+}
+
