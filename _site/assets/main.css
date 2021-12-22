@@ -2838,7 +2838,7 @@ table, .table { font-size: 0.9625rem; }
 @font-face { font-family: MyFont; font-weight: bold; src: url("/assets/fonts/MyFont-Bold.otf") format("opentype"); }
 h1 { font-size: 1.9rem; }
 
-h3 { font-family: MyFont; font-weight: bold; font-size: 1.2rem; }
+h3 { font-family: MyFont; font-weight: normal; font-size: 1.2rem; }
 
 body { background-color: #fff; }
 
@@ -2881,3 +2881,17 @@ video { width: 100%; aspect-ratio: 16/9; }
 
 .btn-smartlab { color: #000; background-color: #fff; border-color: #000; }
 .btn-smartlab:hover { background-color: #efefef; color: #000; }
+
+.set-background { background-color: #F5E2C8; }
+
+p { font-family: 'MyFont'; font-weight: regular; }
+
+.smart-link { text-decoration: underline; }
+
+.videoWrapper { position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0; overflow: hidden; }
+
+.videoWrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.navbar-light .navbar-nav .nav-link { color: #000; }
+
+.publication-image { width: 35%; aspect-ratio: 16/9; object-fit: cover; }

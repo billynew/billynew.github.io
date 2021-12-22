@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>FabHydro: Printing Interactive Hydraulic Devices with an Affordable SLA 3D Printer | Small Artifacts Lab</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="FabHydro: Printing Interactive Hydraulic Devices with an Affordable SLA 3D Printer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Let’s build some cool stuff." />
+<meta property="og:description" content="Let’s build some cool stuff." />
+<link rel="canonical" href="http://localhost:4000/fabhydro.html" />
+<meta property="og:url" content="http://localhost:4000/fabhydro.html" />
+<meta property="og:site_name" content="Small Artifacts Lab" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="FabHydro: Printing Interactive Hydraulic Devices with an Affordable SLA 3D Printer" />
+<script type="application/ld+json">
+{"description":"Let’s build some cool stuff.","url":"http://localhost:4000/fabhydro.html","@type":"WebPage","headline":"FabHydro: Printing Interactive Hydraulic Devices with an Affordable SLA 3D Printer","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Small Artifacts Lab" /><script src="/assets/javascript/bootstrap/jquery.min.js"></script>
+   <script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
+   <!-- Load the Paper.js library -->
+   <script type="text/javascript" src="/assets/javascript/paper.js"></script>
+   <!-- Define inlined PaperScript associate it with myCanvas -->
+   <script type="text/paperscript" canvas="myCanvas">
+<!--     // Adapted from the following Processing example:
+// http://processing.org/learning/topics/follow3.html
+
+// The amount of points in the path:
+var points = 30;
+
+// The distance between the points:
+var length = 15;
+
+var path = new Path({
+    strokeColor: '#E3E3E3',
+    strokeWidth: 15,
+    strokeCap: 'round'
+});
+
+var start = view.center / [10, 1];
+for (var i = 0; i < points; i++)
+    path.add(start + new Point(i * length, 0));
+
+function onMouseMove(event) {
+    path.firstSegment.point = event.point;
+    for (var i = 0; i < points - 1; i++) {
+        var segment = path.segments[i];
+        var nextSegment = segment.next;
+        var vector = segment.point - nextSegment.point;
+        vector.length = length;
+        nextSegment.point = segment.point - vector;
+    }
+    path.smooth({ type: 'continuous' });
+}
+
+function onMouseDown(event) {
+    path.fullySelected = true;
+    path.strokeColor = '#e08285';
+}
+
+function onMouseUp(event) {
+    path.fullySelected = false;
+    path.strokeColor = '#e4141b'; -->
+}
+</script>
+<script type="text/javascript">
+//     const videos = ["assets/videos/MechanoBeat.mp4","assets/videos/FabHydro.mp4"];
+//     var currentVideo = 0;
+
+//     function nextVideo() {
+//     // get the element
+//     videoPlayer = document.getElementById("play-video")
+//     // remove the event listener, if there is one
+//     videoPlayer.removeEventListener('ended',nextVideo,false);
+
+//     // update the source with the currentVideo from the videos array
+//     videoPlayer.src = videos[currentVideo];
+//     // play the video
+//     videoPlayer.play()
+
+//     // increment the currentVideo, looping at the end of the array
+//     currentVideo = (currentVideo + 1) % videos.length
+
+//     // add an event listener so when the video ends it will call the nextVideo function again
+//     videoPlayer.addEventListener('ended', nextVideo,false);
+// }
+
+// function ooops() {
+//     console.log("Error: " + document.getElementById("play-video").error.code)
+// }
+</script>
+</head>
+<body><div class="bg-smartlab smartlab-header">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-smartlab">
+      <div class="container">
+        <a class="navbar-brand" rel="author" href="/index.html"><img width="100%" height="auto" src="assets/images/smartlogofinal.png"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto"><li class="nav-item">
+            <a class="nav-link mx-2" href="/index.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/people.html">People</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="/joinus.html">Join Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+</div><div class="py-5">
+      <div class="container page-content">
+          <article>
+
+  <header>
+    <h1 class="set-font-bold">FabHydro: Printing Interactive Hydraulic Devices with an Affordable SLA 3D Printer</h1>
+  </header>
+
+  <section>
+    <div class="videoWrapper">
+	<iframe src="https://www.youtube.com/embed/DBX4-j_664s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="mt-3">
+	<p>We introduce FabHydro, a set of fabrication methods to democratize the printing of hydraulic-driven mechanical devices with consumer-grade 3D printers that cost less than 200 US dollars.<br><br>Our core idea centers on low-cost stereolithography (SLA) printers, which can produce both stiff and flexible structures from a selected photosensitive resin in one printing process.<br><br>We first present printer settings and custom support structures to warrant the successful print of flexible and deformable objects.<br><br>We then detail two optional printing processes that seal the hydraulic liquid inside. With the first process, which we called <em>Submerged Printing</em>, the entire hydraulic device, including the mechanical and the fluid inside, can be printed all at once with a slightly modified printer vat. This is suitable for printing hydraulic prototypes for fast design iteration, as the printed device requires no manual assembly and is ready to test out-of-the-printer.<br><br>The second process, which we called <em>Printing with Plugs</em>, allows the user to fill water or other liquids inside the printed chamber and seal them with printed plugs as a post-process. The benefit of this method is that it requires no hardware modification to the printer. However, printed objects require manual assembly.<br><br>Following the printing methods, we report a design space with a range of 3D printable primitives, including the hydraulic generator, transmitter, and actuator. To demonstrate the feasibility of our approaches and the breadth of new designs that they enable, we showcase a set of examples from a printed robotic gripper that can be operated at a distance to a mobile phone stand that serves as a status reminder by repositioning the user’s phone. We conclude with a discussion of our approach’s limitations and possible future improvements.</p>
+	<p>
+		<strong>Created by:</strong>
+	</p>	
+	<p>Zeyu Yan, Huaishu Peng</p>
+	<p>
+		<strong>Publications:</strong>
+	</p>
+	<p>ACM UIST 2021 <a class="btn btn-smartlab btn-sm rounded-0" href="https://dl.acm.org/doi/pdf/10.1145/3472749.3474751">PDF</a> | <a class="btn btn-smartlab btn-sm rounded-0" href="https://doi.org/10.1145/3472749.3474751">DOI</a></p>
+	<p>ACM UIST 2021 DEMO <a class="btn btn-smartlab btn-sm rounded-0" href="https://dl.acm.org/doi/pdf/10.1145/3474349.3480180">PDF</a> | <a class="btn btn-smartlab btn-sm rounded-0" href="https://doi.org/10.1145/3474349.3480180">DOI</a></p>
+	<p><strong>News: </strong></p>
+	<p><a class="smart-link" href="https://makezine.com/2021/10/14/clever-hack-uses-cheap-resin-printers-to-make-flexible-hydraulic-actuators/">Makezine</a></p>
+</div>
+
+<p>
+	<strong>Figures:</strong>
+</p>
+
+<div class="row">
+	<div class="col-12 col-lg-6">
+		<img src="http://huaishu.umiacs.io/images/fabhydro/1.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>
+		<img src="http://huaishu.umiacs.io/images/fabhydro/2.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>         
+		<img src="http://huaishu.umiacs.io/images/fabhydro/3.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br> 
+		<img src="http://huaishu.umiacs.io/images/fabhydro/4.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>         
+		<img src="http://huaishu.umiacs.io/images/fabhydro/5.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>        
+		<img src="http://huaishu.umiacs.io/images/fabhydro/6.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>        
+	</div>
+	<div class="col-12 col-lg-6">
+		<img src="http://huaishu.umiacs.io/images/fabhydro/7.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>
+		<img src="http://huaishu.umiacs.io/images/fabhydro/8.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>
+		<img src="http://huaishu.umiacs.io/images/fabhydro/9.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>       
+		<img src="http://huaishu.umiacs.io/images/fabhydro/10.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>        
+		<img src="http://huaishu.umiacs.io/images/fabhydro/11.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid">
+		<br><br><br>        
+		<img src="http://huaishu.umiacs.io/images/fabhydro/12.jpg" alt="Huaishu Peng | fabhydro" class="img-fluid"> 
+	</div>
+</div>
+
+
+  </section>
+
+</article>
+
+      </div>
+    </div>
+<div class="py-5 lab-footer">
+  <div class="container">
+
+    <p class="set-font mb-1">Small Artifacts Lab</p>
+    <p class="mini-text set-font mb-3">
+    <a href="https://www.umd.edu">University of Maryland</a>
+    </p>
+    <div class="row">
+
+      <div class="col-sm">
+        <ul class="list-unstyled"><li>
+              <a href="mailto:">
+                
+              </a>
+            </li></ul>
+        <p class="mini-text set-font">
+          0102 <br>
+          Brendan Iribe Center for Computer Science and Engineering <br>
+          8125 Paint Branch Drive <br>
+        </p>
+      </div>
+
+
+      <div class="col-sm text-right">
+        <p class="mini-text set-font">Let&#39;s build some cool stuff.</p>
+
+        <p class="minier-text">
+          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</body>
+
+</html>
