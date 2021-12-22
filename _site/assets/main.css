@@ -2834,6 +2834,8 @@ table, .table { font-size: 0.9625rem; }
 
 .list-group { font-size: 0.9625rem; }
 
+html { overflow-y: scroll; }
+
 @font-face { font-family: MyFont; font-weight: normal; src: url("/assets/fonts/MyFont-Regular.otf") format("opentype"); }
 @font-face { font-family: MyFont; font-weight: bold; src: url("/assets/fonts/MyFont-Bold.otf") format("opentype"); }
 h1 { font-size: 1.9rem; }

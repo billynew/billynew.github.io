@@ -19,76 +19,6 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Small Artifacts Lab" /><script src="/assets/javascript/bootstrap/jquery.min.js"></script>
    <script src="/assets/javascript/bootstrap/bootstrap.bundle.min.js"></script>
-   <!-- Load the Paper.js library -->
-   <script type="text/javascript" src="/assets/javascript/paper.js"></script>
-   <!-- Define inlined PaperScript associate it with myCanvas -->
-   <script type="text/paperscript" canvas="myCanvas">
-<!--     // Adapted from the following Processing example:
-// http://processing.org/learning/topics/follow3.html
-
-// The amount of points in the path:
-var points = 30;
-
-// The distance between the points:
-var length = 15;
-
-var path = new Path({
-    strokeColor: '#E3E3E3',
-    strokeWidth: 15,
-    strokeCap: 'round'
-});
-
-var start = view.center / [10, 1];
-for (var i = 0; i < points; i++)
-    path.add(start + new Point(i * length, 0));
-
-function onMouseMove(event) {
-    path.firstSegment.point = event.point;
-    for (var i = 0; i < points - 1; i++) {
-        var segment = path.segments[i];
-        var nextSegment = segment.next;
-        var vector = segment.point - nextSegment.point;
-        vector.length = length;
-        nextSegment.point = segment.point - vector;
-    }
-    path.smooth({ type: 'continuous' });
-}
-
-function onMouseDown(event) {
-    path.fullySelected = true;
-    path.strokeColor = '#e08285';
-}
-
-function onMouseUp(event) {
-    path.fullySelected = false;
-    path.strokeColor = '#e4141b'; -->
-}
-</script>
-<script type="text/javascript">
-//     const videos = ["assets/videos/MechanoBeat.mp4","assets/videos/FabHydro.mp4"];
-//     var currentVideo = 0;
-
-//     function nextVideo() {
-//     // get the element
-//     videoPlayer = document.getElementById("play-video")
-//     // remove the event listener, if there is one
-//     videoPlayer.removeEventListener('ended',nextVideo,false);
-
-//     // update the source with the currentVideo from the videos array
-//     videoPlayer.src = videos[currentVideo];
-//     // play the video
-//     videoPlayer.play()
-
-//     // increment the currentVideo, looping at the end of the array
-//     currentVideo = (currentVideo + 1) % videos.length
-
-//     // add an event listener so when the video ends it will call the nextVideo function again
-//     videoPlayer.addEventListener('ended', nextVideo,false);
-// }
-
-// function ooops() {
-//     console.log("Error: " + document.getElementById("play-video").error.code)
-// }
 </script>
 </head>
 <body><div class="bg-smartlab smartlab-header">
@@ -114,16 +44,15 @@ function onMouseUp(event) {
     </div>
   </nav>
 </div>
-</div><div class="py-5">
-      <div class="container page-content">
-          <article>
+</div><div class="container mt-5">
+    <header>
+      <h1 class="set-font-bold">People</h1>
+    </header>
+    
 
-  <header>
-    <h1 class="set-font-bold">People</h1>
-  </header>
-
-  <section>
-    <div class="container">
+    <div>
+      <div class="page-content">
+        <div class="container">
 	<div class="row mt-4">
 		<div class="col-3 mb-3">
 			<div class="card rounded-0 border-0" style="100%">
@@ -190,12 +119,9 @@ function onMouseUp(event) {
 </div>
 
 
-  </section>
-
-</article>
-
       </div>
     </div>
+  </div>
 <div class="py-5 lab-footer">
   <div class="container">
 
