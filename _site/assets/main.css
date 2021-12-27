@@ -2897,3 +2897,5 @@ p { font-family: 'MyFont'; font-weight: regular; }
 .navbar-light .navbar-nav .nav-link { color: #000; }
 
 .publication-image { width: 35%; aspect-ratio: 16/9; object-fit: cover; }
+
+.mini-rule { width: 10%; padding-top: 0.2rem; background-color: #ccc; }
