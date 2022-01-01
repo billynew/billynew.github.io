@@ -2884,7 +2884,7 @@ video { width: 100%; aspect-ratio: 16/9; }
 .btn-smartlab { color: #000; background-color: #fff; border-color: #000; }
 .btn-smartlab:hover { background-color: #efefef; color: #000; }
 
-.set-background { background-color: #F5E2C8; }
+.set-background { background-color: #f9f9f9; }
 
 p { font-family: 'MyFont'; font-weight: regular; }
 
@@ -2899,3 +2899,7 @@ p { font-family: 'MyFont'; font-weight: regular; }
 .publication-image { width: 35%; aspect-ratio: 16/9; object-fit: cover; }
 
 .mini-rule { width: 10%; padding-top: 0.2rem; background-color: #ccc; }
+
+.people-image { aspect-ratio: 1/1; object-fit: cover; }
+
+.site-subtitle { color: #666666; }
