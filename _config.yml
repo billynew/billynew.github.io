@@ -40,3 +40,18 @@ exclude:
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
+
+site:
+
+collections:
+  publications:
+    output: true
+    permalink: /publication/:slug
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "page"
