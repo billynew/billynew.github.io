@@ -47,11 +47,20 @@ collections:
   publications:
     output: true
     permalink: /publication/:slug
+  reading:
+    output: true
+    permalink: /reading/:slug
 
 defaults:
   -
     scope:
       path: ""
       type: "publications"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "reading"
     values:
       layout: "page"
