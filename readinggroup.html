@@ -10,7 +10,7 @@ title: Reading Group
 {% for paper in site.reading %}
 <p class="mb-1 mt-5 set-font text-muted small-text">{{ paper.venue }}</p>
 <h3 class="mb-0">
-	<a href="paper.doi">{{ paper.title }}</a>					
+	<a href="{{ paper.doi }}">{{ paper.title }}</a>					
 </h3>
 <div class="my-1 authors small-text">{{ paper.authors }}</div>
 <p class="set-font small-text mb-0 mt-3"><span class="picked">Picked by:</span> <em>{{ paper.picked_by }}</em></p>
