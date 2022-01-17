@@ -1,5 +1,5 @@
 ---
-title: 'Looking past yesterday\'s tomorrow: using futures studies methods to extend the research horizon'
+title: 'Looking past yesterday’s tomorrow: using futures studies methods to extend the research horizon'
 authors: 'Jennifer Mankoff, Jennifer A. Rode, Haakon Faste'
 venue: 'CHI 2013'
 doi: 'https://dl.acm.org/doi/10.1145/2470654.2466216'
