@@ -7,7 +7,7 @@ title: Reading Group
 	Every 4 days, a lab member picks a paper that the rest of the group reads and reflects upon. This page serves as a public record of the papers picked in the past. If you're new to technical HCI research, this list may also serve as a good starting point to immerse yourself in the relevant work that appeals to our lab.
 </p>
 
-{% for paper in site.reading %}
+{% for paper in site.reading reversed %}
 <p class="mb-1 mt-5 set-font text-muted small-text">{{ paper.venue }}</p>
 <h3 class="mb-0">
 	<a href="{{ paper.doi }}">{{ paper.title }}</a>					

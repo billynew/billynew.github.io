@@ -5,4 +5,5 @@ venue: 'ACM IMWUT 2020'
 doi: 'https://doi.org/10.1145/3397310'
 reason: 'I think this is a really complete paper. From fabrication pipeline, to sensing, to a solid evaluation.'
 picked_by: 'Anup'
+date: 2021-01-24
 ---

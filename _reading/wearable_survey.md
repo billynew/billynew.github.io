@@ -5,4 +5,5 @@ venue: 'IEEE Transactions on Haptics, Volume: 10 Issue: 4'
 doi: 'https://doi.org/10.1109/TOH.2017.2689006'
 reason: 'A quick lens to learn finger-worn haptic devices.'
 picked_by: 'Huaishu'
+date: 2021-01-24
 ---

@@ -6,4 +6,5 @@ venue: 'UIST 2021'
 doi: 'https://dl.acm.org/doi/10.1145/3472749.3474802'
 reason: 'One great example of ‘smart’ fibers.'
 picked_by: 'Huaishu'
+date: 2021-01-24
 ---

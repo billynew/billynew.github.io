@@ -5,4 +5,5 @@ venue: 'UIST 2020'
 doi: 'https://dl.acm.org/doi/10.1145/3379337.3415873'
 reason: 'This paper presented a batteryless and wireless device to detect fingers’ movements on any type of surface. I can see a lot of potential applications through this technology.'
 picked_by: 'Jiasheng'
+date: 2021-01-25
 ---
