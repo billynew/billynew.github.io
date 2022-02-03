@@ -1,9 +1,9 @@
 ---
-title: 'OptiStructures: Fabrication of Room-Scale Interactive Structures with Embedded Fiber Bragg Grating Optical Sensors and Displays'
-authors: 'Saiganesh Swaminathan, Jonathan Fagert, Michael Rivera, Andrew Cao, Gierad Laput, Hae Young Noh, Scott E Hudson'
-venue: 'ACM IMWUT 2020'
+title: 'Implanted user interfaces'
+authors: 'Christian Holz, Tovi Grossman, George Fitzmaurice, and Anne Agur'
+venue: "CHI '12"
 doi: 'https://doi.org/10.1145/3397310'
-reason: 'I think this is a really complete paper. From fabrication pipeline, to sensing, to a solid evaluation.'
+reason: 'The lengths they went to in order to evaluate their work is impressive.'
 picked_by: 'Anup'
-date: 2021-01-24
+date: 2021-02-02
 ---
