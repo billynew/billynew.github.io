@@ -197,3 +197,13 @@ p {
 color: #666666;
 }
 
+.btn-custom {
+	color: #c44900;
+	text-transform: uppercase;
+	background-color: #fff;
+	border-color: #c44900;
+	&:hover {
+		background-color: #fff2eb;
+		color: #c44900;
+	}
+}

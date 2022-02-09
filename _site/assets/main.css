@@ -2903,3 +2903,6 @@ p { font-family: 'MyFont'; font-weight: regular; }
 .people-image { aspect-ratio: 1/1; object-fit: cover; }
 
 .site-subtitle { color: #666666; }
+
+.btn-custom { color: #c44900; text-transform: uppercase; background-color: #fff; border-color: #c44900; }
+.btn-custom:hover { background-color: #fff2eb; color: #c44900; }

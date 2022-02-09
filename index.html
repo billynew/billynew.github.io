@@ -65,6 +65,11 @@ title: Home
                   <div class="btn-group mr-2">
                       <a href="{{ publication.pdf }}" class="btn btn-smartlab btn-sm rounded-0">PDF</a>
                   </div>
+                  {% if publication.custombutton_text %}
+                  <div class="btn-group mr-2">
+                      <a href="{{ publication.custombutton_link }}" class="btn btn-custom btn-sm rounded-0">{{ publication.custombutton_text }}</a>
+                  </div>
+                  {% endif %}
               </div>
           </div>
           <img class="card-img-right publication-image flex-auto d-none d-md-block" alt="{{ publication.title }}" src="{{ publication.image }}">
