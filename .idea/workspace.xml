@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="update TangibleGrid">
-      <change beforePath="$PROJECT_DIR$/_publications/calico.html" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/calico.html" afterDir="false" />
+    <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="update publiction order">
+      <change afterPath="$PROJECT_DIR$/assets/images/tangiblegrid/tangible_grid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_publications/tangiblegrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/tangiblegrid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/tangiblegrid/tangible_grid.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +47,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/pdf" />
       <recent name="$PROJECT_DIR$/assets/images/tangiblegrid" />
+      <recent name="$PROJECT_DIR$/assets/pdf" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,7 +62,7 @@
       <workItem from="1660075198871" duration="45000" />
       <workItem from="1660075407512" duration="1532000" />
       <workItem from="1660159074150" duration="3000" />
-      <workItem from="1660245510782" duration="958000" />
+      <workItem from="1660245510782" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="JS test">
       <created>1660075549240</created>
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660246138290</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update TangibleGrid">
+      <created>1660246536047</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660246536047</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,7 @@
     <MESSAGE value="JS test" />
     <MESSAGE value="JS test done" />
     <MESSAGE value="update TangibleGrid" />
-    <option name="LAST_COMMIT_MESSAGE" value="update TangibleGrid" />
+    <MESSAGE value="update publiction order" />
+    <option name="LAST_COMMIT_MESSAGE" value="update publiction order" />
   </component>
 </project>
