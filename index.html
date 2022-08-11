@@ -55,7 +55,11 @@ title: Home
               <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
           </svg> {{ publication.award }} </span>{% endif %}</p>
                 <h3 class="mb-0">
+                    {% if publication.linked != false %}
                     <a href="{{ publication.url }}">{{ publication.title }}</a>
+                    {% else %}
+                    {{ publication.title }}
+                    {% endif %}
                 </h3>
                 <div class="my-1 authors small-text">{{ publication.authors }}</div>
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
