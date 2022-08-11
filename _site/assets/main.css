@@ -2906,3 +2906,7 @@ p { font-family: 'MyFont'; font-weight: regular; }
 
 .btn-custom { color: #c44900; text-transform: uppercase; background-color: #fff; border-color: #c44900; }
 .btn-custom:hover { background-color: #fff2eb; color: #c44900; }
+
+.new-tag { font-size: 0.8rem; background: #c44900; color: white; }
+
+.equal-contrib { font-size: 0.6rem; }
