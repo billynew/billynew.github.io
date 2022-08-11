@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="JS test done">
+      <change afterPath="$PROJECT_DIR$/_publications/tangiblegrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tangiblegrid/tangible_grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/pdf/tangiblegrid.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +35,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -34,6 +45,12 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/pdf" />
+      <recent name="$PROJECT_DIR$/assets/images/tangiblegrid" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1660075196254</updated>
       <workItem from="1660075198871" duration="45000" />
-      <workItem from="1660075407512" duration="894000" />
+      <workItem from="1660075407512" duration="1532000" />
+      <workItem from="1660159074150" duration="3000" />
+      <workItem from="1660245510782" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="JS test">
       <created>1660075549240</created>
@@ -73,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660075788482</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JS test done">
+      <created>1660078448036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660078448036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
