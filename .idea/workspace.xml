@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="update tangible grid photo">
-      <change afterPath="$PROJECT_DIR$/assets/images/tangiblegrid/tangible_grid_adjusted.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tangiblegrid/lab_page_thumbnail.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_publications/tangiblegrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/tangiblegrid.html" afterDir="false" />
     </list>
@@ -61,7 +61,7 @@
       <workItem from="1660075198871" duration="45000" />
       <workItem from="1660075407512" duration="1532000" />
       <workItem from="1660159074150" duration="3000" />
-      <workItem from="1660245510782" duration="2305000" />
+      <workItem from="1660245510782" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="JS test">
       <created>1660075549240</created>
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660247089581</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update tangible grid photo">
+      <created>1660248607075</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660248607076</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
