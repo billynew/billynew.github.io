@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="JS test done">
-      <change afterPath="$PROJECT_DIR$/_publications/tangiblegrid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tangiblegrid/tangible_grid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pdf/tangiblegrid.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="update TangibleGrid">
+      <change beforePath="$PROJECT_DIR$/_publications/calico.html" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/calico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_publications/tangiblegrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/tangiblegrid.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <workItem from="1660075198871" duration="45000" />
       <workItem from="1660075407512" duration="1532000" />
       <workItem from="1660159074150" duration="3000" />
-      <workItem from="1660245510782" duration="566000" />
+      <workItem from="1660245510782" duration="958000" />
     </task>
     <task id="LOCAL-00001" summary="JS test">
       <created>1660075549240</created>
@@ -99,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660078448036</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update TangibleGrid">
+      <created>1660246098045</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660246098045</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update TangibleGrid">
+      <created>1660246138290</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660246138290</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JS test" />
     <MESSAGE value="JS test done" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS test done" />
+    <MESSAGE value="update TangibleGrid" />
+    <option name="LAST_COMMIT_MESSAGE" value="update TangibleGrid" />
   </component>
 </project>
