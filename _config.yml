@@ -64,3 +64,5 @@ defaults:
       type: "reading"
     values:
       layout: "page"
+
+markdown: CommonMarkGhPages
