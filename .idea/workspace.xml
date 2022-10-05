@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="update tangible grid photo">
-      <change afterPath="$PROJECT_DIR$/assets/images/tangiblegrid/lab_page_thumbnail.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_publications/tangiblegrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/tangiblegrid.html" afterDir="false" />
     </list>
@@ -32,18 +31,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/tangiblegrid" />
@@ -61,7 +60,9 @@
       <workItem from="1660075198871" duration="45000" />
       <workItem from="1660075407512" duration="1532000" />
       <workItem from="1660159074150" duration="3000" />
-      <workItem from="1660245510782" duration="2686000" />
+      <workItem from="1660245510782" duration="3445000" />
+      <workItem from="1660769125405" duration="943000" />
+      <workItem from="1664983407865" duration="1103000" />
     </task>
     <task id="LOCAL-00001" summary="JS test">
       <created>1660075549240</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660248607076</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update tangible grid photo">
+      <created>1660249035353</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660249035353</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
