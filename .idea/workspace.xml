@@ -5,9 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04db8a12-7bfc-4007-9867-88ae87c9cb5b" name="Changes" comment="update tangible grid webpage">
-      <change afterPath="$PROJECT_DIR$/_reading/dmts_methodology.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_reading/quantitative_empirical_evaluations.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_publications/toucha11y.html" beforeDir="false" afterPath="$PROJECT_DIR$/_publications/toucha11y.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/accessibilitysurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/accessibilitysurvey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/class.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/class.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/futureOfUI 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/futureOfUI 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/futureOfUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/futureOfUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/people.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/arbitrary.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/arbitrary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/bodybeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/bodybeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/calico.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/calico.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/dcoil.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/dcoil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/electromagnet.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/electromagnet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/fabhydro.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/fabhydro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/fabric.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/fabric.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/fibercuit.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/fibercuit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/formfab.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/formfab.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/mechanobeat.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/mechanobeat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/ondule.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/ondule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/onthefly.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/onthefly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/roma.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/roma.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publication/telelife.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publication/telelife.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/accessibilitysurvey.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/accessibilitysurvey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/evaluation-strategies.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/evaluation-strategies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/fit4life.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/fit4life.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/futureofui.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/futureofui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/hapbead.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/hapbead.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/impactvest.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/impactvest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/implanted.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/implanted.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/interactiles.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/interactiles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/lipnotif.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/lipnotif.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/looking-past.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/looking-past.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/omnifiber.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/omnifiber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/optistructures.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/optistructures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/printed-optics.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/printed-optics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/probabilistic.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/probabilistic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/sidebyside.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/sidebyside.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/telemetring.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/telemetring.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/transcalibur.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/transcalibur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/understanding-accessibility.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/understanding-accessibility.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/wearable-survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/wearable-survey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/reading/x-ring.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/reading/x-ring.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/readinggroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/readinggroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +79,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/tangiblegrid" />
@@ -66,6 +115,8 @@
       <workItem from="1660769125405" duration="943000" />
       <workItem from="1664983407865" duration="3435000" />
       <workItem from="1676733241109" duration="681000" />
+      <workItem from="1683072561964" duration="9000" />
+      <workItem from="1683072743665" duration="4024000" />
     </task>
     <task id="LOCAL-00001" summary="JS test">
       <created>1660075549240</created>
