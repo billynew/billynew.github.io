@@ -2840,6 +2840,8 @@ html { overflow-y: scroll; }
 @font-face { font-family: MyFont; font-weight: bold; src: url("/assets/fonts/MyFont-Bold.otf") format("opentype"); }
 h1 { font-size: 1.9rem; }
 
+li { font-family: 'MyFont'; }
+
 h3 { font-family: MyFont; font-weight: normal; font-size: 1.2rem; }
 
 body { background-color: #fff; }
@@ -2848,6 +2850,8 @@ header { background-color: #fff; height: auto !important; min-height: 0rem !impo
 
 a { color: #000; }
 a:hover { color: #413A3A; text-decoration: underline !important; }
+
+.red-link { color: #8b0000; }
 
 canvas { width: 100%; height: 27rem; left: 0; right: 0; position: absolute; z-index: -1; }
 

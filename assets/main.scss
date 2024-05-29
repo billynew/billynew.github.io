@@ -31,6 +31,9 @@ h1 {
 	font-size: 1.9rem;
 }
 
+li {
+	font-family: 'MyFont';
+}
 h3 {
 	font-family: MyFont;
     font-weight: normal;
@@ -53,6 +56,10 @@ a {
 		color: $lab-accent-dark;
 		text-decoration: underline !important;
 	}
+}
+
+.red-link{
+	color: #8b0000;
 }
 
 canvas{
